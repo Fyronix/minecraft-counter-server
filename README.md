@@ -4,10 +4,6 @@ Displays the number of online players in your Minecraft Server on your website u
 
 The only two lines needed are the script tag and the element that will display the number. Example:
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
 ```html
 
 <script src="https://lounge-lizard-dev.github.io/minecraft-counter-server/script.js"></script>
