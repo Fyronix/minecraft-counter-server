@@ -14,6 +14,18 @@ There are <span data-playercounter-ip="mc.hypixel.net">0</span> players on Hypix
 
 ### Options
 
+- refreshRate - The rate that the counter will refresh (1m by default. Note that https://mcapi.us/ has a 5 minute cache.)
+  - format - Format that the counter will be displayed
+    - `{max}` - Maximum players
+    - `{online}` - Online players
+  - ip - Server IP. E.g (`mc.hypixel.net`), with port (`mc.hypixel.net:25565`)
+  - element - Element that the counter will be rendered in.
+
+In HTML, the attributes should be prefixed with `data-playercounter-`. E.g (`data-playercounter-ip`)
+
+It's also possible to display the server status by adding the attribute `data-playercounter-status`. It will display "online" or "offline".
+See [example](example.html)
+
 ### Example (including HTML template):
 
 #### HTML
