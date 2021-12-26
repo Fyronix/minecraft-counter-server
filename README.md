@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+##  A simple counter of player on a minecraft server 
 
 Displays the number of online players in your Minecraft Server on your website using 2 lines of HTML.
 
